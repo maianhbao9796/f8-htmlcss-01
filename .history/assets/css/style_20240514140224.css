@@ -1,0 +1,73 @@
+/* COMMON - THÀNH PHẦN DÙNG CHUNG */
+:root {
+    --mth-color-primary: #0f1b4c;
+    --mth-color-secondary: #0689ff;
+    --mth-text-color-primary: #1c1c1d;
+    --mth-text-color-secondary: #7a7a7e;
+}
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+.content {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    color: unset;
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.4rem;
+    border: none;
+    margin-left: 18px;
+    background-color: var(--mth-color-primary);
+    color: #fff;
+    padding: 18px 22px;
+    border-radius: 8px;
+    min-width: 98px;
+    text-align: center;
+}
+
+/* HEADER */
+.header {
+    background: #e6f0ff;
+    height: 100vh;
+}
+
+.navbar,
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+.navbar {
+    padding-top: 38px;
+}
+.navbar ul {
+    margin-left: 50px;
+}
+.navbar ul li {
+    /* margin-right: 30px; */
+}
+.navbar ul li a {
+    color: #4f5361;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 8px 14px;
+}
+.actions {
+    margin-left: auto;
+}
+
+.btn_register a {
+    
+}

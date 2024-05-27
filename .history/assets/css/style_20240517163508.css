@@ -1,0 +1,179 @@
+/* COMMON - THÀNH PHẦN DÙNG CHUNG */
+:root {
+    --mth-color-primary: #0f1b4c;
+    --mth-color-secondary: #0689ff;
+    --mth-text-color-primary: #1c1c1d;
+    --mth-text-color-secondary: #7a7a7e;
+}
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+.content {
+    width: 1100px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    color: unset;
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.4rem;
+    border: none;
+    margin-left: 18px;
+    background-color: var(--mth-color-primary);
+    color: #fff;
+    padding: 18px 22px;
+    border-radius: 8px;
+    min-width: 98px;
+    text-align: center;
+    transition: all 0.2s linear;
+}
+.btn:hover {
+    opacity: 0.8;
+    transform: scale(1.02);
+}
+/* HEADER */
+.header {
+    position: relative;
+    background: #e6f0ff;
+    height: 100vh;
+}
+
+.navbar,
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+.navbar {
+    padding-top: 38px;
+}
+.navbar ul {
+    margin-left: 50px;
+}
+.navbar ul li {
+    /* margin-right: 30px; */
+}
+.navbar ul li a {
+    color: #4f5361;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 8px 14px;
+}
+.actions {
+    margin-left: auto;
+}
+
+.navbar .action-btn {
+    padding: 13px 22px;
+}
+
+.hero {
+    margin-top: 130px;
+}
+.hero .info {
+    width: 51%;
+    text-align: left;
+}
+.hero .sub-title {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: 0.01em; /* Khoảng cách giữ các chữ cái, em phụ thuộc vào font-size của nó */
+    color: #687690;
+}
+.hero .title {
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.19;
+    color: #000336;
+    margin-top: 8px;
+}
+.hero .desc {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.78;
+    color: #5a6473;
+    margin-top: 30px;
+}
+.hero-btn {
+    min-width: 170px;
+    margin: unset;
+    margin-top: 40px;
+    padding-inline: 38px;
+}
+
+.hero-img {
+    position: absolute;
+    bottom: 0;
+    right: calc((100vw - 1110px) / 2 - 100px);
+}
+
+/* Clients */
+.clients {
+    margin-top: 122px;
+}
+.clients .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.clients .row .desc {
+    color: #7d8589;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.clients .row.row-desc {
+    margin-top: 23px;
+}
+.clients .row.row-logo {
+    margin-top: 96px;
+}
+
+/* Guides */
+.guides {
+    margin-top: 200px;
+}
+.guides .sub-title {
+    position: relative;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    color: #000339;
+}
+.guides .sub-title::before {
+    content: "";
+    display: inline-block;
+    background: #000339;
+    width: 41px;
+    height: 4px;
+    border-radius: 12px;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.guides .desc {
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.875;
+    text-align: center;
+    color: #5A6473;
+    margin-top: 20px;
+    width: 459px;
+    max-width: 100%;
+    margin: 20px auto 0;
+}
