@@ -108,24 +108,24 @@ a {
 }
 
 
-.hero-wrap .info {
+.info {
     width: 51%;
     text-align: left;
 }
-.hero-wrap .sub-title {
+.sub-title {
     font-size: 1.8rem;
     line-height: 1.5;
     letter-spacing: 0.01em; /* Khoảng cách giữ các chữ cái, em phụ thuộc vào font-size của nó */
     color: #687690;
 }
-.hero-wrap .title {
+.title {
     font-size: 6.2rem;
     font-weight: 700;
     line-height: 1.19;
     color: #000336;
     margin-top: 8px;
 }
-.hero-wrap .desc {
+.desc {
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 1.78;

@@ -15,16 +15,12 @@ html {
 body {
     font-size: 1.6rem;
 }
-html,
-body {
+html, body {
     scroll-behavior: smooth;
 }
-#contact,
-#features,
-#listed,
-#services {
-    scroll-margin-top: 20px;
-}
+#contact, #features, #home, #listed, #services {
+    scroll-margin-top: 10px;
+} 
 .content {
     width: 1100px;
     max-width: calc(100% - 48px);
@@ -69,13 +65,13 @@ a {
     z-index: 9;
 }
 
+
 .hero-wrap {
     position: relative;
     background: #e6f0ff;
     height: calc(100vh - 90px);
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .navbar,
@@ -107,25 +103,27 @@ a {
     border-radius: 8px;
 }
 
-
-.hero-wrap .info {
+.hero {
+    margin-top: 130px;
+}
+.hero .info {
     width: 51%;
     text-align: left;
 }
-.hero-wrap .sub-title {
+.hero .sub-title {
     font-size: 1.8rem;
     line-height: 1.5;
     letter-spacing: 0.01em; /* Khoảng cách giữ các chữ cái, em phụ thuộc vào font-size của nó */
     color: #687690;
 }
-.hero-wrap .title {
+.hero .title {
     font-size: 6.2rem;
     font-weight: 700;
     line-height: 1.19;
     color: #000336;
     margin-top: 8px;
 }
-.hero-wrap .desc {
+.hero .desc {
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 1.78;
@@ -176,7 +174,7 @@ a {
     border-radius: 12px;
 }
 .clients .row.row-logo a:hover {
-    box-shadow: 0px 10px 20px 0px #0000001a;
+    box-shadow: 0px 10px 20px 0px #0000001A;
 }
 /* Guides */
 .guides {
