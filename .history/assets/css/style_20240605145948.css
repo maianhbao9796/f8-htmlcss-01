@@ -548,23 +548,11 @@ a {
 .footer .socicals {
     margin-top: 40px;
 }
-.footer .socical-link {
+.footer .socical-icon {
+    margin-right: 16px;
+    background: #F9F9F9;
     height: 30px;
     width: 30px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-}
-.footer .socical-link + .socical-link {
-    margin-left: 16px;
-}
-
-.footer .socical-link:hover {
-    background-color: #f9f9f9;
-}
-.footer .socical-icon {
-    /* margin-right: 16px; */
 }
 .footer .copyright {
     color: #c2c2c2;
